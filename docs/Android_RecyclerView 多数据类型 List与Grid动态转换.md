@@ -1,6 +1,6 @@
-##目录
+## 目录
 
-###MainActivity.java
+### MainActivity.java
 ```
     ......
     private void initView() {
@@ -177,7 +177,7 @@
 
 ```
 
-###Adapter
+### Adapter
 ```
   public class LibrariesAdapter extends RecyclerView.Adapter<LibrariesAdapter.ViewHolder> {
 
