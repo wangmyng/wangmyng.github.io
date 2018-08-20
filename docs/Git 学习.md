@@ -1,6 +1,4 @@
-## Git
-
-### Git 三棵树结构 ###
+## Git 三棵树结构 ##
 
 这里的树不是准确地代表数据结构，可以简单理解为 “文件的集合”
 
@@ -18,7 +16,7 @@ HEAD 相当于一个指针，始终指向当前分支，并保证分支引用指
 
 每次 commit 形成一个快照，链接于当前分支的最顶端快照，并移动 HEAD 指向的分支指向这个快照
 
-### git reset ###
+## git reset ##
 
 * --soft，第一级：移动 HEAD
 
@@ -39,7 +37,7 @@ reset 移动 HEAD 指向的分支，使分支指向上一个快照，相当于�
 * git status 推荐使用 git reset 来取消暂存
 
 
-### git checkout ###
+## git checkout ##
 
 与 git reset 一样，也操纵三棵树
 
@@ -52,23 +50,23 @@ reset 移动 HEAD 指向的分支，使分支指向上一个快照，相当于�
 
 
 
-### git stash ###
+## git stash ##
 
-### git diff ###
+## git diff ##
 
 显示本地与暂存区的区别，即尚未暂存的更新内容
 
 --cached 或 --staged 显示暂存区与 HEAD 内容的区别，即要被提交的更新内容
 
-### git rm ###
+## git rm ##
 
 当文件已被暂存时无法直接 rm，-f 强制删除 使暂存区与本地同时删除，--cached 只删除暂存区的文件信息
 
-### git commit ###
+## git commit ##
 
 --amend 修改提交信息 重新提交 覆盖上一次提交，用于遗落文件或描述信息补充等
 
-### git  log ###
+## git  log ##
 
 -p 显示每次提交的内容，
 
