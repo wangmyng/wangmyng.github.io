@@ -1,1 +1,3 @@
+[TOC]
+
 # wangmyng.github.io
